@@ -117,9 +117,6 @@ function getResult(e) {
         newNumber = true;
     } else {
         operator = this.id;
-        displayTop.textContent = displayBottom.textContent;
-        displayBottom.textContent = '';
-        displayedNumber = null;
     }
 }
 
